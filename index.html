@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+    .hover-img-container img.hover {
+        display: none;
+    }
+
+    .hover-img-container:hover img.default {
+        display: none;
+    }
+
+    .hover-img-container:hover img.hover {
+        display: inline;
+    }
+    </style>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Yan Sun's website</title>
+        <link rel="icon" type="image/x-icon" href="https://cdn.brand.illinois.edu/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Yan Sun's Website</span>
+                <span class="d-none d-lg-block hover-img-container">
+                    <img class="default img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile_no_smile.jpeg" alt="default" />
+                    <img class="hover img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile_smile.png" alt="hovered" />
+                </span>
+            </a>
+            <div class="d-none d-lg-block text-white">
+                Yan Sun
+            </div>
+            <div class="d-none d-lg-block text-white">
+                yans3 AT illinois DOT edu
+            </div>
+            <div class="d-none d-lg-block text-white">
+                PhD student in ECE@UIUC
+            </div>
+            <div class="d-none d-lg-block social-icons">
+                <a class="social-icon" href="https://www.linkedin.com/in/yan-sun-918649195/"><i class="fab fa-linkedin-in"></i></a>
+                <a class="social-icon" href="https://github.com/ynnsau"><i class="fab fa-github"></i></a>
+                <a class="social-icon" href="https://scholar.google.com/citations?user=TvaRwG0AAAAJ&hl=en"><i class="fas fa-graduation-cap"></i></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#publications">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="assets/cv_Yan_Sun.pdf">Resume</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content font_palatino">
+                    <h2 class="mb-0 font_palatino">
+                        About
+                    </h2>
+                    <p class="lead mb-3">My name is Yan Sun, and I am a PhD student in <a href="https://ece.illinois.edu">ECE@UIUC</a>, advised by <a href="https://fast.ece.illinois.edu/"/>Prof. Nam Sung Kim</a>. </p>
+
+                    <p class="lead mb-3">My research focuses on hardware-software co-design with the latest Compute eXpress Link (CXL) technology. </p>
+
+                    <p class="lead mb-3">Before that, I received a BS degree in Computer Engieering with a minor in Statistic from <a href="https://www.illinois.edu">UIUC</a> in 2021.</p>
+                    
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Publications-->
+            <section class="resume-section" id="publications">
+                <div class="resume-section-content font_palatino">
+                    <h3 class="mb-3 font_palatino" style="display: inline;">Publications</h3>
+                    <a href="https://scholar.google.com/citations?user=TvaRwG0AAAAJ&hl=en" style="display: inline; font-size: 20px; color: black;">Full List</a>
+                    <ul>
+
+                    <li>
+                        M5: Mastering page migration and memory management for CXL-based tiered memory systems
+
+                        <div class="mb-1">
+                            <b>ASPLOS 2025</b> <a href="https://dl.acm.org/doi/10.1145/3676641.3711999">paper</a> <a href="assets/slides/m5.pptx">slides</a> <a href="https://github.com/ece-fast-lab/ASPLOS-2025-M5">code</a>
+                        </div>
+                        <div>
+                            <span class="badge memory">Memory Technology</span>
+                            <span class="badge os">OS</span> 
+                        </div>
+                        
+                    </li>
+
+                    <li>
+                        Lupin: Tolerating Partial Failures in a CXL Pod
+                        <div class="mb-1">
+                            <b>DIMES 2024</b> <a href="https://www.cs.utexas.edu/~witchel/pubs/zhu24dimes-lupin.pdf">paper</a> 
+                        </div>
+                        <div>
+                            <span class="badge memory">Memory Technology</span>
+                            <span class="badge device">Peripheral Devices</span> 
+                            <span class="badge model">Performance Characterization</span> 
+                        </div>
+                    </li>
+
+                    <li>
+                        Making sense of using a smartnic to reduce datacenter tax from slo and tco perspectives 
+                        <div class="mb-1">
+                            <b>IISWC 2023</b> <a href="https://ieeexplore.ieee.org/abstract/document/10289567">paper</a> 
+                        </div>
+                        <div>
+                            <span class="badge nic">NIC</span>
+                            <span class="badge device">Peripheral Devices</span> 
+                            <span class="badge model">Performance Characterization</span> 
+                        </div>
+                    </li>
+
+                    <li>
+                        Analyzing Energy Efficiency of a Server with a SmartNIC under SLO Constraints
+                        <div class="mb-1">
+                            <b>ISPASS 2023</b> <a href="https://ieeexplore.ieee.org/abstract/document/10158228">paper</a> 
+                        </div>
+                        <div>
+                            <span class="badge nic">NIC</span>
+                            <span class="badge device">Peripheral Devices</span> 
+                            <span class="badge model">Performance Characterization</span> 
+                        </div>
+                    </li>
+
+                    <li>
+                        Demystifying CXL Memory with True CXL-Ready Systems and CXL Memory Devices
+                        <div class="mb-1">
+                            <b>MICRO 2023</b> <a href="https://dl.acm.org/doi/abs/10.1145/3613424.3614256">paper</a> <a href="assets/slides/cxl-micro23.pptx">slides</a> <a href="https://github.com/ece-fast-lab/cxl_type3_tests">code</a>
+
+                        </div>
+                        <div>
+                            <span class="badge memory">Memory Technology</span>
+                            <span class="badge os">OS</span> 
+                        </div>
+                    </li>
+
+                    <li>
+                        RAMBDA: RDMA-driven Acceleration Framework for Memory-intensive us-scale Datacenter Applications
+                        <div class="mb-1">
+                            <b>HPCA 2023</b> <a href="https://ieeexplore.ieee.org/abstract/document/10071127">paper</a> 
+                        </div>
+                        <div>
+                            <span class="badge acc">Accelerator</span>
+                            <span class="badge cloud">Cloud Computing</span>
+                        </div>
+                    </li>
+
+                    <li>
+                        STYX: Exploiting SmartNIC Capability to Reduce Datacenter Memory Tax
+                        <div class="mb-1">
+                            <b>ATC 2023</b> <a href="https://www.usenix.org/conference/atc23/presentation/ji">paper</a>
+                        </div>
+                        <div>
+                            <span class="badge acc">Accelerator</span>
+                            <span class="badge cloud">Datacenter Tax</span>
+                        </div>
+                    </li>
+
+
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+        </div>
+        <!-- Professional Services-->
+        <section class="resume-section" id="services">
+            <div class="resume-section-content font_palatino">
+                <h3 class="mb-3 font_palatino">Professional Services and Activities</h3>
+                <ul>
+                    <li><b>Reviewer:</b> IEEE Transactions on Parallel and Distributed Systems (TPDS, 2025)</li>
+                </ul>
+            </div>
+        </section>
+
+        <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=200&t=n&d=zIqtdsu1r7tkmoW-xJcgXdfGBDQirskYDT15fjS7ZTA"></script> <script async src="https://www.googletagmanager.com/gtag/js?id=G-4Z2VN5LL3G"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-4Z2VN5LL3G'); </script>
+
+        <hr class="m-0" />
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <footer class="footer" style="text-align: center;">
+            Adapted from <a href="https://github.com/StartBootstrap/startbootstrap-resume" target="_blank" style="color: black;">startbootstrap</a>
+        </footer>
+    </body>
+</html>
